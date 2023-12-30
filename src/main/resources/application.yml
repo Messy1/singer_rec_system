@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: singer-rec-system
+
+server:
+  port: 1234
+
+logging:
+  level:
+    root: INFO
+
+hbase:
+  zookeeper:
+    quorum: Master,Slave1
+    port: 2181
